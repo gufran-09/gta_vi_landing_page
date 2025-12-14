@@ -1,7 +1,20 @@
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className="hero-section">
+      <div className="size-full mask-wrapper">
+        <img
+          src="/images/hero-bg.webp"
+          alt="background"
+          className="scale-out"
+        />
+        <img
+          src="/images/hero-text.webp"
+          alt="hero-logo"
+          className="title-logo fade-out"
+        />
+      </div>
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;
